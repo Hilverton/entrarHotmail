@@ -1,0 +1,65 @@
+body{
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .img{
+        display: block;
+        background-image: url("https://auth.gfx.ms/16.000.28071.00/images/Backgrounds/0.jpg?x=a5dbd4393ff6a725c7e62b61df7e72f0");            
+        background-size: cover; /*necessário para a imagem caber em toda viewport*/
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: -1; /*para ficar atrás do card*/
+    }
+    .pos{ 
+        width: 440px;  /*valores originais*/
+        height: 338px;
+        z-index: 1; 
+    }
+    .margem{
+        margin-top: 21px;
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+    .caixa{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: black;
+    }
+    .caixa-logo{
+        font-size: 18px;
+        font-family: Arial;
+        color: dimgray;
+    }
+    .logo{
+        height: 24px;
+        width: 24px;
+    }
+    .botao{
+        width: 108px;
+        height: 32px;
+        font-size: 15px;
+    }
+    .foot{
+        color: white; 
+        background-color: black; 
+        z-index: 0; 
+        opacity: 0.6;
+        height: 28px;;
+        font-size: 12px;
+
+    }
+    .foot a{
+        margin-left: 10px;
+        margin-right: 10px; 
+        color: #fff;
+    }
+    .foot span{
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+    .bo{
+        height: 96vh;
+    }
