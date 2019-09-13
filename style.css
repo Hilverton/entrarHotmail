@@ -5,7 +5,7 @@ body{
     }
     .img{
         display: block;
-        background-image: url("https://auth.gfx.ms/16.000.28071.00/images/Backgrounds/0.jpg?x=a5dbd4393ff6a725c7e62b61df7e72f0");            
+        background-image: url("https://logincdn.msauth.net/16.000.28314.9/images/Backgrounds/0.jpg?x=a5dbd43%E2%80%A6");            
         background-size: cover; /*necessário para a imagem caber em toda viewport*/
         width: 100%;
         height: 100vh;
